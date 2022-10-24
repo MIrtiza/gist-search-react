@@ -1,0 +1,14 @@
+*{
+    margin: 0;padding: 0;
+}
+body{}
+
+table{
+    margin-top: 30px;
+    width: 100%;
+    th,td{
+        padding: 30px;
+        text-align: left;
+        border: 1px solid black;
+    }
+}

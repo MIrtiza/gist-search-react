@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    .form-label{
+        font-weight: 900;
+        font-size: 19px;
+        text-transform: capitalize;
+    }
+    input{
+        padding: 10px 20px;
+        margin: 8px 0;
+    }
+    small{
+        color: green;
+    }
+}
+button{
+    padding: 10px 20px;
+    position: relative;
+    top: 3px;
+    background-color: rgb(54, 147, 190);
+    color: white;
+    border: 2px solid rgb(54, 147, 190);
+}
